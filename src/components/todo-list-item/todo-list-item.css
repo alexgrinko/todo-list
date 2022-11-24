@@ -1,0 +1,60 @@
+.todo-item__button {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    margin-left: 4px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.todo-item__button--dell {
+    border: 2px solid red;
+    background-image: url('../../img/delete.png');
+}
+
+.todo-item__button--dell:hover {
+    background-color: rgb(240, 196, 196);
+}
+
+.todo-item__button--dell:active {
+    background-color: red;
+}
+
+.todo-item__button--important {
+    border: 2px solid rgb(90, 145, 12);
+    background-image: url('../../img/important.png');
+}
+
+.todo-item__button--important:hover {
+    background-color: rgb(206, 231, 172);
+}
+
+.todo-item__button--important:active {
+    background-color: rgb(90, 145, 12);
+}
+
+.todo-item__text {
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.todo-item__text:hover {
+    transform: scale(1.1);
+    color: rgb(10, 2, 80)
+}
+
+.todo-item__text--ready {
+    text-decoration: line-through;
+}
+
+.todo-item__text--imp {
+    color: rgb(63, 102, 161);
+    font-size: 22px;
+    font-weight: bold;
+}
