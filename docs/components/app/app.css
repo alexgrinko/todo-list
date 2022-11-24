@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+    margin: 0 auto;
+    width: 360px;
+    border: 2px solid rgb(63, 102, 161);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgb(246, 246, 246);
+}
+
+.search {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    height: 50px;
+    display: flex;
+}
